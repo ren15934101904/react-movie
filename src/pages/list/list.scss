@@ -1,0 +1,10 @@
+.list-wrapper{
+    height: 90%;
+    overflow: hidden;
+    .list{
+        display: grid;
+        grid-template-columns: repeat(3, 33.33%);//每行3列
+        grid-row-gap:20px;//行与行之间的间距
+        justify-items: center;//格子里面的元素居中排版
+    }
+}

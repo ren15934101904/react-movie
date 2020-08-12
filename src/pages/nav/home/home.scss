@@ -1,0 +1,20 @@
+.home{
+    background-color: #fff;
+    height: 100%;
+    .search-wrapper{
+        height: 60px;
+        background-color: green;
+        padding: 0 10px;
+        display: flex;
+        align-items: center;
+        .search-box{
+            height: 40px;
+            background-color: #fff;
+            border-radius: 5px;
+            text-align: center;
+            line-height: 40px;
+            flex:1
+            
+        }
+    }
+}
